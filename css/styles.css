@@ -1,0 +1,290 @@
+/* Fonts */
+@font-face {
+    font-family: CircularStd;
+    src: url(../assets/fonts/CircularStd-Black.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: csBlackItalic;
+    src: url(../assets/fonts/CircularStd-BlackItalic.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: csBold;
+    src: url(../assets/fonts/CircularStd-Bold.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: csBoldItalic;
+    src: url(../assets/fonts/CircularStd-BoldItalic.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: cdBook;
+    src: url(../assets/fonts/CircularStd-Book.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: csBookItalic;
+    src: url(../assets/fonts/CircularStd-BookItalic.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: csMedium;
+    src: url(../assets/fonts/CircularStd-Medium.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: csMediumItalic;
+    src: url(../assets/fonts/CircularStd-MediumItalic.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: csLight;
+    src: url(../assets/fonts/CircularStd-Light.ttf);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    background-color: #13131F;
+}
+
+.centered-logo {
+    position: fixed;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+.logo-img {
+    width: 60px;
+}
+
+.container {
+    padding-top: 250px;
+    margin: 0px 350px;
+}
+
+p.aroma-title {
+    width: 200px;
+    font-family: csMedium;
+    font-size: 85px;
+    line-height: 1em;
+    color: #FFFFFF;
+}
+
+p.description {
+    padding: 15px 0px;
+    width: 300px;
+    color: #CED6EA;
+    font-size: 15px;
+    font-family: cdBook;
+}
+
+.content-container {
+    float: left;
+}
+
+.blob-container {
+    z-index: -100;
+    position: absolute;
+    right: 0;
+    padding-right: 250px;
+    margin-top: -50px;
+}
+
+.social-icons {
+  position: absolute;
+  margin-bottom: 2rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.social-icons ul {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons ul > li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: white;
+  font-size: 3rem;
+  line-height: 6rem;
+  height: 6rem;
+  width: 6rem;
+}
+
+
+@media (min-width: 768px) {
+  .social-icons {
+    margin: 0;
+    position: absolute;
+    right: 2.5rem;
+    bottom: 2rem;
+    width: auto;
+  }
+  .social-icons ul {
+    margin-top: 0;
+    width: auto;
+  }
+  .social-icons ul > li {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  .social-icons ul > li:last-child {
+    margin-bottom: 0;
+  }
+  .social-icons ul > li > a {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+.input-group-newsletter input {
+  height: auto;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.btn-secondary {
+  background-color: #AAC5FC;
+  border-color: #AAC5FC;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #C8DBFF !important;
+  border-color:  #C8DBFF !important;
+}
+
+.input-group-newsletter button {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
+.input {
+  font-weight: 300 !important;
+}
+
+.input-group {
+  width: 400px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .input-group-newsletter input {
+    font-size: 0.85rem;
+    padding: 1rem;
+    height: 35px;
+  }
+
+  .btn {
+    height: 35px;
+  }
+
+  .input-group-newsletter button {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+  .input-group {
+    width: 350px;
+  }
+  .container {
+    padding-top: 250px;
+    margin: 0px 25px;
+}
+
+p.aroma-title {
+  width: 50px;
+  font-size: 35px;
+  line-height: 1em;
+}
+
+p.description {
+  padding: 15px 0px;
+  width: 200px;
+  color: #CED6EA;
+  font-size: 13px;
+  font-family: cdBook;
+}
+
+.blob-container {
+  z-index: -100;
+  position: fixed;
+  right: 0;
+  margin-top: -50px;
+  padding-right: 0px;
+}
+
+img.blob {
+  width: 320px;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  margin-bottom: 0;
+  z-index: 2;
+}
+
+.social-icons ul {
+  width: 100%;
+    margin-top: 2rem;
+}
+
+.social-icons ul > li {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  float: right;
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: white;
+  font-size: 2rem;
+  line-height: 2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+}
+
