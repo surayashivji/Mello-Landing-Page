@@ -203,6 +203,14 @@ p.description {
   width: 400px;
 }
 
+.thankyou_message {
+  color: white;
+  font-family: cdBook;
+  color: #CED6EA;
+  font-size: 1.25rem;
+  padding-top: 10px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
 
   .input-group-newsletter input {
